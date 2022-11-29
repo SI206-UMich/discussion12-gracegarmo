@@ -27,6 +27,9 @@ def add_employee(filename, cur, conn):
     file_data = f.read()
     f.close()
     # THE REST IS UP TO YOU
+    json_data = json.loads(file_data)
+    for row in json_data:
+        cue.excecute('INSERT INTO employees')
     pass
 
 # TASK 2: GET JOB AND HIRE_DATE INFORMATION

@@ -13,6 +13,7 @@ def setUpDatabase(db_name):
     return cur, conn
 
   
+  
 # TASK 1
 # CREATE TABLE FOR EMPLOYEE INFORMATION IN DATABASE AND ADD INFORMATION
 def create_employee_table(cur, conn):
